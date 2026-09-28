@@ -1,0 +1,17 @@
+nama_barang = input("nama barang: ")
+harga =float(input("harga barang: "))
+jumlah = int(input("jumlah barang:"))
+
+total = harga * jumlah
+
+# diskon 10%
+diskon = total * 0.10
+total_bayar = total - diskon
+
+print("\n=== ringkasan tarnsaksi ===")
+print(f"Nama barang : {nama_barang}")
+print(f"Harga       : Rp{harga:,.0f}")
+print(f"Jumlah      : {jumlah}")
+print(f"Total       : Rp{total:,.0f}")
+print(f"Diskon 10%  : Rp{diskon:,.0f}")
+print(f"Total Bayar : Rp{total_bayar:,.0f} ")
