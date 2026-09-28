@@ -1,3 +1,17 @@
+panjang = 5
+lebar = 12
+luas = panjang * lebar
+print ("luas", luas)
+
+panjang = float(input("panjang"))
+lebar = float(input("lebar"))
+print ("input", luas)
+
+celcius = float(input("suhu celcius"))
+fahrenheit = (celcius * 9/5) +32
+print ("suhu fahrenheit:", fahrenheit)
+
+pekerjaan rumah:
 nama_barang = input("nama barang: ")
 harga =float(input("harga barang: "))
 jumlah = int(input("jumlah barang:"))
